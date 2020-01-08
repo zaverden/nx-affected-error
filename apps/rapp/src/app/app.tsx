@@ -1,5 +1,5 @@
 import React from 'react';
-
+import moment from 'moment';
 import styled from '@emotion/styled';
 
 import { ReactComponent as Logo } from './logo.svg';
@@ -148,7 +148,7 @@ export const App = () => {
     <StyledApp>
       <header className="flex">
         <Logo width="75" height="75" />
-        <h1>Welcome to rapp!</h1>
+        <h1>Welcome to rapp! {moment()}</h1>
       </header>
       <main>
         <h2>Resources &amp; Tools</h2>
