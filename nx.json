@@ -1,0 +1,21 @@
+{
+  "npmScope": "err",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "rapp": {
+      "tags": []
+    },
+    "rapp-e2e": {
+      "tags": []
+    }
+  }
+}
